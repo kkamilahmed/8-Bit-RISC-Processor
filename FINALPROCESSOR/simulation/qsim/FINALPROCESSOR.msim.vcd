@@ -1,0 +1,448 @@
+$comment
+	File created using the following command:
+		vcd file FINALPROCESSOR.msim.vcd -direction
+$end
+$date
+	Tue Nov 26 00:47:46 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module FINALPROCESSOR_vlg_vec_tst $end
+$var reg 8 ! A [7:0] $end
+$var reg 8 " B [7:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ datain $end
+$var reg 1 % enable $end
+$var reg 1 & reset $end
+$var wire 1 ' oddeven [0] $end
+$var wire 1 ( oddeven [1] $end
+$var wire 1 ) oddeven [2] $end
+$var wire 1 * oddeven [3] $end
+$var wire 1 + oddeven [4] $end
+$var wire 1 , oddeven [5] $end
+$var wire 1 - oddeven [6] $end
+$var wire 1 . student [0] $end
+$var wire 1 / student [1] $end
+$var wire 1 0 student [2] $end
+$var wire 1 1 student [3] $end
+$var wire 1 2 student [4] $end
+$var wire 1 3 student [5] $end
+$var wire 1 4 student [6] $end
+$var wire 1 5 sampler $end
+$scope module i1 $end
+$var wire 1 6 gnd $end
+$var wire 1 7 vcc $end
+$var wire 1 8 unknown $end
+$var tri1 1 9 devclrn $end
+$var tri1 1 : devpor $end
+$var tri1 1 ; devoe $end
+$var wire 1 < enable~combout $end
+$var wire 1 = clk~combout $end
+$var wire 1 > inst1|yfsm.s4~feeder_combout $end
+$var wire 1 ? reset~combout $end
+$var wire 1 @ datain~combout $end
+$var wire 1 A inst1|yfsm.s4~regout $end
+$var wire 1 B inst1|yfsm.s5~feeder_combout $end
+$var wire 1 C inst1|yfsm.s5~regout $end
+$var wire 1 D inst1|yfsm.s6~feeder_combout $end
+$var wire 1 E inst1|yfsm.s6~regout $end
+$var wire 1 F inst1|yfsm.s7~feeder_combout $end
+$var wire 1 G inst1|yfsm.s7~regout $end
+$var wire 1 H inst1|yfsm.s8~feeder_combout $end
+$var wire 1 I inst1|yfsm.s8~regout $end
+$var wire 1 J inst1|yfsm.s0~0_combout $end
+$var wire 1 K inst1|yfsm.s0~regout $end
+$var wire 1 L inst1|yfsm.s1~0_combout $end
+$var wire 1 M inst1|yfsm.s1~regout $end
+$var wire 1 N inst1|yfsm.s2~feeder_combout $end
+$var wire 1 O inst1|yfsm.s2~regout $end
+$var wire 1 P inst1|yfsm.s3~feeder_combout $end
+$var wire 1 Q inst1|yfsm.s3~regout $end
+$var wire 1 R inst2|R1[3]~0_combout $end
+$var wire 1 S inst1|WideOr13~0_combout $end
+$var wire 1 T inst1|WideOr12~0_combout $end
+$var wire 1 U inst8|Mux0~0_combout $end
+$var wire 1 V inst8|Mux1~0_combout $end
+$var wire 1 W inst8|Mux2~2_combout $end
+$var wire 1 X inst8|Mux3~0_combout $end
+$var wire 1 Y inst8|Mux5~0_combout $end
+$var wire 1 Z inst8|Mux3~1_combout $end
+$var wire 1 [ inst2|R1 [3] $end
+$var wire 1 \ inst2|R1 [2] $end
+$var wire 1 ] inst2|R1 [1] $end
+$var wire 1 ^ inst2|R1 [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+0#
+1$
+1%
+0&
+1-
+0,
+0+
+1*
+0)
+0(
+0'
+04
+03
+12
+01
+00
+1/
+0.
+x5
+06
+17
+x8
+19
+1:
+1;
+1<
+0=
+0>
+0?
+1@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+1J
+0K
+1L
+0M
+0N
+0O
+0P
+0Q
+1R
+0S
+1T
+0U
+0V
+0W
+0X
+0Y
+0Z
+z^
+z]
+z\
+0[
+$end
+#30000
+1#
+1=
+05
+1[
+1M
+1K
+0R
+0T
+1N
+0L
+1+
+1'
+0*
+0-
+1Z
+1V
+02
+14
+0/
+#70000
+0#
+0=
+15
+#110000
+1#
+1=
+05
+0[
+1O
+0M
+1R
+1P
+1T
+0N
+0+
+0'
+1*
+1-
+1Y
+1X
+1U
+12
+13
+11
+1.
+#150000
+0#
+0=
+15
+#190000
+1#
+1=
+05
+1[
+1Q
+0O
+0R
+0T
+1S
+1>
+0Z
+0Y
+0X
+0V
+0U
+0P
+1+
+1'
+0*
+0-
+1Y
+1V
+1W
+02
+04
+03
+01
+0.
+1/
+13
+10
+0/
+#230000
+0#
+0=
+15
+#270000
+1#
+1=
+05
+0[
+0Q
+1A
+1R
+0W
+1T
+0S
+0>
+1B
+0+
+0'
+1*
+1-
+0Y
+0V
+00
+12
+03
+1/
+#310000
+0#
+0=
+15
+#350000
+1#
+1=
+05
+1[
+1C
+0A
+1Z
+1Y
+1X
+1V
+1U
+1S
+1D
+0B
+1+
+1'
+0*
+0-
+0Z
+0X
+0U
+14
+13
+11
+1.
+0/
+04
+01
+0.
+#390000
+0#
+0=
+15
+#430000
+1#
+1=
+05
+1E
+0C
+1F
+1Z
+1X
+0S
+0D
+0Z
+0Y
+0X
+0V
+14
+11
+04
+03
+01
+1/
+#470000
+0#
+0=
+15
+#510000
+1#
+1=
+05
+1G
+0E
+1S
+1H
+0F
+1Z
+1Y
+1X
+1V
+14
+13
+11
+0/
+#550000
+0#
+0=
+15
+#590000
+1#
+1=
+05
+1I
+0G
+0J
+0H
+#630000
+0#
+0=
+15
+#670000
+1#
+1=
+05
+0K
+0I
+1L
+0S
+1J
+0Z
+0Y
+0X
+0V
+04
+03
+01
+1/
+#710000
+0#
+0=
+15
+#750000
+1#
+1=
+05
+1M
+1K
+0T
+0R
+1N
+0L
+1Z
+1V
+02
+14
+0/
+#780000
+0%
+0<
+15
+1R
+#790000
+0#
+0=
+05
+#820000
+1#
+1=
+15
+1O
+0M
+1P
+1T
+0N
+1Y
+1X
+1U
+12
+13
+11
+1.
+#860000
+0#
+0=
+05
+#880000
+1#
+1=
+15
+1Q
+0O
+0T
+1S
+1>
+0Z
+0Y
+0X
+0V
+0U
+0P
+1Y
+1V
+1W
+02
+04
+03
+01
+0.
+1/
+13
+10
+0/
+#930000
+0#
+0=
+05
+#1000000

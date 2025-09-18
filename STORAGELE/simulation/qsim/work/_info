@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ayaan\Desktop\Lab 6\STORAGELE\simulation\qsim
+vSTORAGELE
+Z1 !s100 ]63DbPI6OZg4>Rmdg]gLe2
+Z2 I[QN3L97IoiU=Y>?eA0SA43
+Z3 V:66l0eZnFAgZO;lI2]_P31
+Z4 dC:\Users\ayaan\Desktop\Lab 6\STORAGELE\simulation\qsim
+Z5 w1732571397
+Z6 8STORAGELE.vo
+Z7 FSTORAGELE.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|STORAGELE.vo|
+Z10 o-work work -O0
+Z11 n@s@t@o@r@a@g@e@l@e
+!i10b 1
+!s85 0
+Z12 !s108 1732571398.318000
+Z13 !s107 STORAGELE.vo|
+!s101 -O0
+vSTORAGELE_vlg_check_tst
+!i10b 1
+Z14 !s100 DfV7Md8;Db?dXlSWo][YE0
+Z15 IeL`M9zT1zUW:2F@Y26JGM1
+Z16 VYCM?^ed>`j?BSDLU8i>X?3
+R4
+Z17 w1732571396
+Z18 8STORAGELE.vt
+Z19 FSTORAGELE.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1732571398.415000
+Z21 !s107 STORAGELE.vt|
+Z22 !s90 -work|work|STORAGELE.vt|
+!s101 -O0
+R10
+Z23 n@s@t@o@r@a@g@e@l@e_vlg_check_tst
+vSTORAGELE_vlg_sample_tst
+!i10b 1
+Z24 !s100 ]<GN_h;L4=Z9JBS0b?iND0
+Z25 I1IaiK?KomL]CRVXjS7gEo0
+Z26 Ve]f<Vc`BKFUfc1k6mQPSl1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@s@t@o@r@a@g@e@l@e_vlg_sample_tst
+vSTORAGELE_vlg_vec_tst
+!i10b 1
+!s100 ;<3I1j71VO^ZC_CaY2Gk41
+I^DfYhi]ZPi_<R2mTSDPk20
+Z28 Vehe[;gz4ST7aUgnnGE<?51
+R4
+R17
+R18
+R19
+Z29 L0 281
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@s@t@o@r@a@g@e@l@e_vlg_vec_tst
